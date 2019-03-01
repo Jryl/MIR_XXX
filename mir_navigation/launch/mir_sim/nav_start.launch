@@ -1,0 +1,7 @@
+<launch>
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find mir_navigation)/rviz/navigation1.rviz"/> <!-- Rviz for mir robot -->
+  
+  <!-- start plotjuggler -->
+  <!--node pkg="plotjuggler" type="PlotJuggler" name="my_plot_Juggler" args="" /-->
+  
+</launch>
